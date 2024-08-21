@@ -2,6 +2,20 @@
 
 ## **Problem Statment** - Develop an AI model capable of detecting fraudulent transactions in real-time. Use historical transaction data to train the model to identify anomalies and flag suspicious activities.
 
+| Metric       | Value  |
+|--------------|--------|
+| **Accuracy** | 99.5%  |
+| **Precision**| 96%    |
+| **Recall**   | 86%    |
+| **F1 Score** | 90%    |
+| **ROC AUC**  | 99.7%  |
+
+
+## Feature Importance
+
+![image](https://github.com/user-attachments/assets/618b77c4-d60f-4fcf-9685-3e1efa4ad680)
+
+
 # Model Documentation - Weighted Classification using Two XGBoost Models
 
 This documentation provides an overview of the weighted classification approach using two XGBoost models. The models are trained with different hyperparameters, and their predictions are combined using a weighted average.
@@ -58,6 +72,7 @@ The performance of the combined model can be evaluated using various metrics suc
 - **Recall**: The proportion of actual positives that are correctly identified.
 - **F1-Score**: The harmonic mean of precision and recall.
 - **ROC AUC Score**: The Area Under the Receiver Operating Characteristic Curve, indicating the model's ability to distinguish between the classes.
+  
 
 ## Conclusion
 
